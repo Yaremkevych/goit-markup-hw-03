@@ -158,6 +158,9 @@ ol {
     display: flex;
     gap: 24px;
 }
+.advantages-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
 .advantages-item-title {
     color: var(--navyblue);
     font-size: 20px;
@@ -165,7 +168,6 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    width: calc((100%-72px)) / 4;
 }
 .advantages-item-text {
     color: var(--slate);
@@ -181,6 +183,17 @@ ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.work {
+    padding-bottom: 120px;
+}
+.work-list {
+    display: flex;
+    gap: 24px;
+}
+.work-list-item {
+    width: calc((100% - 48px) / 3);
 }
 /*-----------SECTION-4-----------*/
 .team {
