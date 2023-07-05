@@ -55,9 +55,6 @@ ol {
     padding: 0 15px;
 }
 /*-----------HEADER-----------*/
-.header {
-    padding: 24px 0;
-}
 .logo {
     color: var(--iris);
     font-size: 18px;
@@ -85,13 +82,17 @@ ol {
 .navigation {
     display: flex;
     flex-grow: 1;
+    align-items: center;
 }
 .header-container {
     display: flex;
+    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
 .address-list {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 .address {
     font-style: normal;
