@@ -83,12 +83,12 @@ ol {
     display: flex;
     flex-grow: 1;
     align-items: center;
+    padding: 24px 0;
 }
 .header-container {
     display: flex;
-    padding: 24px 0;
-    border-bottom: 1px solid #e7e9fc;
 }
+
 .address-list {
     display: flex;
     gap: 40px;
@@ -96,6 +96,7 @@ ol {
 }
 .address {
     font-style: normal;
+    padding: 24px 0;
 }
 .address-list-item {
     color: var(--slate);
