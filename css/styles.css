@@ -78,12 +78,12 @@ ol {
 .navigation-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .navigation {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    padding: 24px 0;
 }
 .header-container {
     display: flex;
@@ -114,6 +114,7 @@ ol {
 /*-----------SECTION-1-----------*/
 .solutions {
     background-color: var(--navyblue);
+    padding: 188px 0;
 }
 .solutions-title {
     color: var(--white);
@@ -122,6 +123,9 @@ ol {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    display: flex;
+    margin: 0 auto;
 }
 .solutions-btn {
     color: var(--white);
@@ -132,19 +136,36 @@ ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 .solutions-btn:hover,
 .solutions-btn:focus {
     background-color: var(--ocean);
 }
 /*-----------SECTION-2-----------*/
-
+.advantages {
+    padding: 120px 0;
+}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
 .advantages-item-title {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    width: calc((100%-72px)) / 4;
 }
 .advantages-item-text {
     color: var(--slate);
