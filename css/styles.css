@@ -34,6 +34,9 @@ ol {
 img {
     display: block;
 }
+a {
+    display: inline-block;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -71,7 +74,6 @@ img {
 }
 .logo .header-logo {
     color: var(--navyblue);
-    padding: 24px 0;
 }
 
 .navigation-list-item {
@@ -79,6 +81,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .navigation-list {
     display: flex;
@@ -98,7 +101,6 @@ img {
 .address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 .address {
     font-style: normal;
@@ -107,6 +109,7 @@ img {
     color: var(--slate);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .address-list-item:hover,
 .navigation-list-item:hover,
