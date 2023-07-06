@@ -130,7 +130,6 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    display: flex;
     margin: 0 auto;
 }
 .solutions-btn {
