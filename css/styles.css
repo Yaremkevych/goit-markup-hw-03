@@ -78,18 +78,15 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.logo .navigation-list-item {
-    padding: 24px 0;
-}
 .navigation-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 .navigation {
     display: flex;
     flex-grow: 1;
     align-items: center;
+    padding: 24px 0;
 }
 .header-container {
     display: flex;
@@ -252,7 +249,7 @@ img {
 .logo .footer-logo {
     color: var(--cloud);
 }
-.logo {
+.f-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
