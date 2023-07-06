@@ -259,6 +259,16 @@ img {
     max-width: 264px;
 }
 /*-----------PORTFOLIO-----------*/
+.main-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.portfolio-nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 .portfolio-nav-btn {
     color: var(--iris);
     background-color: var(--cloud);
@@ -269,6 +279,9 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 .portfolio-nav-btn:hover,
 .portfolio-nav-btn:focus {
