@@ -30,6 +30,9 @@ ol {
     margin-bottom: 0;
     padding-left: 0;
 }
+img {
+    display: block;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -74,6 +77,9 @@ ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.logo .navigation-list-item {
+    padding: 24px 0;
 }
 .navigation-list {
     display: flex;
@@ -229,7 +235,7 @@ ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-member-profession {
@@ -245,8 +251,10 @@ ol {
 }
 .logo .footer-logo {
     color: var(--cloud);
+}
+.logo {
     display: inline-block;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 .footer-text {
     color: var(--cloud);
