@@ -67,6 +67,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    padding: 24px 0;
 }
 .logo .header-logo {
     color: var(--navyblue);
@@ -86,7 +87,6 @@ img {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    /*padding: 24px 0;*/
 }
 .header-container {
     display: flex;
@@ -97,11 +97,10 @@ img {
 .address-list {
     display: flex;
     gap: 40px;
-    align-items: center;
+    padding: 24px 0;
 }
 .address {
     font-style: normal;
-    padding: 24px 0;
 }
 .address-list-item {
     color: var(--slate);
