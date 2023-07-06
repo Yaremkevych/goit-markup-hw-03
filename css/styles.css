@@ -68,10 +68,10 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0;
 }
 .logo .header-logo {
     color: var(--navyblue);
+    padding: 24px 0;
 }
 
 .navigation-list-item {
@@ -79,7 +79,6 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 .navigation-list {
     display: flex;
