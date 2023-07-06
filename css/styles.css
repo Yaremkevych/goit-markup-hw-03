@@ -198,9 +198,16 @@ ol {
 /*-----------SECTION-4-----------*/
 .team {
     background-color: var(--cloud);
+    padding: 120px 0;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 .team-list-item {
     background-color: var(--white);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-title {
     color: var(--navyblue);
@@ -210,6 +217,10 @@ ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.team-member {
+    padding: 32px 16px;
 }
 .team-member-name {
     color: var(--navyblue);
@@ -218,6 +229,7 @@ ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 
 .team-member-profession {
@@ -229,14 +241,18 @@ ol {
 /*-----------FOOTER-----------*/
 .footer {
     background-color: var(--navyblue);
+    padding: 100px 0;
 }
 .logo .footer-logo {
     color: var(--cloud);
+    display: inline-block;
+    padding-bottom: 16px;
 }
 .footer-text {
     color: var(--cloud);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 /*-----------PORTFOLIO-----------*/
 .portfolio-nav-btn {
